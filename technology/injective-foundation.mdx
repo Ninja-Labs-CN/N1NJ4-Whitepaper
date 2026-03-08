@@ -1,0 +1,81 @@
+---
+title: "Injective Foundation"
+description: "Why City Zero is built on Injective."
+---
+
+## Why Injective?
+
+City Zero is not blockchain-agnostic. The choice to build on **Injective** is deliberate and architectural. Injective provides a unique combination of properties that make it the right foundation for a digital city.
+
+---
+
+## Injective at a Glance
+
+Injective is a high-performance Layer 1 blockchain purpose-built for finance and decentralized applications. Key properties relevant to City Zero:
+
+<CardGroup cols={2}>
+  <Card title="EVM Compatible" icon="ethereum">
+    Injective supports Ethereum Virtual Machine (EVM) compatibility, meaning any Solidity smart contract can run on Injective. Developers building in City Zero can use familiar tools and languages.
+  </Card>
+  <Card title="High Throughput" icon="bolt">
+    Injective processes thousands of transactions per second with near-instant finality. City Zero's on-chain activity — identity operations, governance votes, economic transactions — can happen at scale without congestion.
+  </Card>
+  <Card title="Low Fees" icon="dollar-sign">
+    Transaction fees on Injective are a fraction of those on Ethereum mainnet. This makes micro-transactions viable — critical for a city where everyday activity, not just large financial operations, happens on-chain.
+  </Card>
+  <Card title="Native DeFi Primitives" icon="chart-line">
+    Injective has built-in support for order books, derivatives, and other financial primitives at the protocol level. City Zero's economic layer can leverage these natively without additional infrastructure.
+  </Card>
+</CardGroup>
+
+---
+
+## Technical Architecture Overview
+
+```
+┌──────────────────────────────────────────────────────┐
+│                   City Zero Layer                     │
+│                                                      │
+│  ┌────────────┐  ┌────────────┐  ┌────────────────┐  │
+│  │  Identity  │  │ Governance │  │    Treasury    │  │
+│  │   (NFT)    │  │  (DAO)     │  │   (Multi-sig)  │  │
+│  └────────────┘  └────────────┘  └────────────────┘  │
+│                                                      │
+│  ┌────────────┐  ┌────────────┐  ┌────────────────┐  │
+│  │   Grants   │  │ Reputation │  │  Growth Share  │  │
+│  │  (ERC-20)  │  │  (On-chain)│  │    (Vesting)   │  │
+│  └────────────┘  └────────────┘  └────────────────┘  │
+├──────────────────────────────────────────────────────┤
+│               Injective EVM (Chain ID: 1776)          │
+│                                                      │
+│  High throughput · Low fees · Native DeFi · CosmWasm │
+└──────────────────────────────────────────────────────┘
+```
+
+---
+
+## Network Information
+
+| Parameter | Value |
+|-----------|-------|
+| **Network Name** | Injective |
+| **Chain ID (EVM)** | 1776 |
+| **RPC Endpoint** | `https://sentry.evm-rpc.injective.network/` |
+| **Block Explorer** | `https://blockscout.injective.network/` |
+| **Native Token** | INJ |
+| **Consensus** | Tendermint BFT |
+| **Finality** | ~1 second |
+
+---
+
+## Why Not Other Chains?
+
+City Zero evaluated several blockchain foundations before selecting Injective:
+
+**Ethereum Mainnet** — Prohibitively expensive for high-frequency city activity. Gas costs would make everyday on-chain participation inaccessible.
+
+**Polygon / L2s** — While lower cost, these chains lack Injective's native financial primitives and the tight integration with the broader Cosmos/IBC ecosystem that enables cross-chain city expansion.
+
+**Solana** — Developer tooling differs significantly from EVM. The City Zero developer community is predominantly EVM-native. Migration friction outweighs performance benefits.
+
+**Injective** — EVM compatibility, sub-second finality, near-zero fees, native DeFi primitives, and an active ecosystem builder community. The right choice for a city that will handle both financial and social on-chain activity at scale.

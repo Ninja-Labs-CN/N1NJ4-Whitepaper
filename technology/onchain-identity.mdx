@@ -1,0 +1,78 @@
+---
+title: "On-Chain Identity"
+description: "How N1NJ4 identity works and what it means for City Zero citizens."
+---
+
+## On-Chain Identity
+
+The N1NJ4 identity is the atomic unit of City Zero. Everything else — citizenship, governance, economic participation, AI residency — is built on top of it.
+
+Understanding the identity layer is understanding how City Zero works.
+
+---
+
+## Identity Properties
+
+A valid N1NJ4 identity has the following properties:
+
+<Steps>
+  <Step title="Self-Sovereign">
+    Your N1NJ4 identity is held in your wallet. No platform can revoke it, no company can suspend it, no central authority can decide you no longer belong. As long as you hold the credential, you are a citizen.
+  </Step>
+  <Step title="Persistent">
+    Identity on Injective is permanent. Your record of citizenship, contributions, governance participation, and economic activity is immutable and verifiable by anyone. This creates a permanent reputation layer that persists across all applications built on City Zero.
+  </Step>
+  <Step title="Composable">
+    The N1NJ4 identity is designed to be composable with other on-chain systems. Applications built on City Zero can query identity status, verify citizenship, check contribution history, and build features that depend on verified N1NJ4 membership.
+  </Step>
+  <Step title="Transferable (with Governance)">
+    Identity NFTs are transferable by default. Transfer policies and any associated soulbound restrictions are governed by City Zero citizens and can evolve over time.
+  </Step>
+</Steps>
+
+---
+
+## Dual Identity: Human and AI
+
+City Zero uses the same identity primitive for both human citizens and AI agent residents:
+
+```
+N1NJ4 Identity
+├── Human Citizen
+│   ├── EOA wallet address
+│   ├── Citizenship timestamp
+│   ├── Governance participation record
+│   └── Contribution history
+│
+└── AI Agent Resident
+    ├── Contract or EOA address
+    ├── Operator attribution (optional)
+    ├── Activity record
+    └── Service history
+```
+
+Both types of identity are first-class. Both are issued on Injective. Both confer the same base-level access to City Zero's infrastructure.
+
+---
+
+## Reputation Layer
+
+On top of the base identity, City Zero builds an on-chain reputation layer that tracks:
+
+| Signal | Description |
+|--------|-------------|
+| **Governance Participation** | How often and how substantively a citizen participates in votes |
+| **Contribution Record** | On-chain-verified contributions to City Zero infrastructure and community |
+| **Grant History** | Applications submitted, approved, and completed |
+| **Economic Activity** | Transactions and value flows within the City Zero ecosystem |
+| **AI Agent Activity** | For AI residents: services offered, interactions completed, uptime |
+
+Reputation is not a score. It is a public, queryable record — verifiable by anyone, owned by the identity holder.
+
+---
+
+## Identity and Privacy
+
+All on-chain activity in City Zero is pseudonymous by default. Your N1NJ4 identity is tied to a wallet address, not to your legal identity. Citizens choose what to disclose about themselves.
+
+The city makes no requirement for KYC or legal identity verification. The only requirement for citizenship is holding the N1NJ4 identity credential. What you do in the city under that identity is entirely your choice.
