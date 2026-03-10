@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "venus",
   "name": "N1NJ4 Whitepaper",
   "colors": {
-    "primary": "#9333ea",
-    "light": "#c084fc",
-    "dark": "#7e22ce"
+    "primary": "#00ff9d",
+    "light": "#39ffb0",
+    "dark": "#00cc7a"
   },
   "favicon": "/favicon.svg",
   "navigation": {
